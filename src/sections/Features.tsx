@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const Features = () => {
   return (
-    <section className="py-16 bg-slate-200 text-center px-6 md:px-20 mx-auto">
+    <section id='about' className="py-16 bg-slate-200 text-center px-6 md:px-20 mx-auto">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-gray-900">Les fonctionnalités clés de Belela</h2>
         <p className="mt-4 text-gray-600">

@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Download = () => {
   return (
     <section 
-      id="download" 
+      id="home" 
       className="text-slate-800 w-full px-6 md:px-20 mx-auto flex items-center justify-center bg-cover bg-center"
       style={{ 
         backgroundImage: 'linear-gradient(to top, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 0) 100%), url(/fonthero.jpg)' 

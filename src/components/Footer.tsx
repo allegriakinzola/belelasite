@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact</h3>
             <p className="text-sm text-gray-400">Email: contact@belela.com</p>
-            <p className="text-sm text-gray-400">Tél: 0123456789</p>
+            <p className="text-sm text-gray-400">Tél: +243 828312365</p>
           </div>
           <div>
             <h3 className="text-lg font-bold mb-4">Liens Rapides</h3>

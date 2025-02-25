@@ -7,7 +7,7 @@ import { MdSecurityUpdateWarning } from "react-icons/md";
 
 export default function Hero() {
   return (
-    <section className="py-16 bg-white text-center px-6 md:px-20 mx-auto">
+    <section id='contact' className="py-16 bg-white text-center px-6 md:px-20 mx-auto">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-gray-900">Nos Activités</h2>
         <p className="mt-4 text-gray-600">
@@ -31,12 +31,12 @@ export default function Hero() {
               <div className="md:w-1/2">
                 <h2 className="text-2xl font-bold">Télécharger l'application Belela</h2>
                 <p className="mt-4 text-white">
-                  Belela est une initiative fantastique dans le marché du transport en Afrique de l'Est. Exploitée et dirigée par des Africains pour des Africains, Belela apporte de la créativité locale et des connaissances pour mieux comprendre les besoins des passagers et des chauffeurs. Que vous ayez besoin de vous rendre rapidement à destination ou que vous souhaitiez gagner de l'argent selon votre emploi du temps, Belela offre la meilleure solution.
+                BELELA est une application mobile conçue pour offrir aux citoyens congolais, en particulier ceux de Kinshasa, un accès rapide et efficace aux services de police et de secours en cas d’urgence. Elle centralise les numéros d’urgence des services de police et des pompiers tout en intégrant un système de géolocalisation, permettant d’identifier le poste de police ou la caserne la plus proche de l’utilisateur.
                 </p>
                 <button className="mt-6 px-6 py-2 bg-black text-white rounded-lg">Commencer</button>
               </div>
               <div className="md:w-1/2 flex justify-center">
-                <Image src="/phone.png" alt="Capture d'écran de l'application Belela" width={400} height={400} className="rounded-lg" />
+                <Image src="/phonemap.png" alt="Capture d'écran de l'application Belela" width={400} height={400} className="rounded-lg" />
               </div>
             </div>
     </section>
